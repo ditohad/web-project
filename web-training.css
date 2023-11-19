@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container > div{
+    font-family: sans-serif;
+    margin-right: 10px;
+}
+
+.container > div > a{
+    text-decoration: none;
+}
+
