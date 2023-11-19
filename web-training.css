@@ -1,14 +1,42 @@
 .container{
     display: flex;
     justify-content: flex-end;
+    padding-top: 20px;
 }
 
 .container > div{
-    font-family: sans-serif;
-    margin-right: 10px;
+    font-size: larger;
+    margin-right: 30px;
 }
 
 .container > div > a{
+    font-family: 'Poppins',sans-serif;
     text-decoration: none;
+    color: rgb(240, 236, 236);
 }
 
+.box{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    align-content: space-between;
+    
+}
+
+.box .child{
+    justify-content: flex-end;
+    width: auto;
+    height: auto;
+    
+}
+
+.box .child1{
+    justify-content: flex-start;
+    width: auto;
+    height: auto;
+}
+
+html{
+    background-image:url(nih\ to.png);
+    background-size: cover;
+}
